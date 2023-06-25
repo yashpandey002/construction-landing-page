@@ -31,17 +31,17 @@ header {
 
 .hero {
     background-color: #f7efdb;
+    padding-top: 40px;
 }
 
 .hero__img-box {
-    justify-content: flex-start;
     align-items: flex-end;
 }
 
 .hero__heading {
     font-size: 48px;
     line-height: 1.4;
-    margin-top: 96px;
+    margin-top: 40px;
     margin-bottom: 24px;
 }
 
@@ -62,4 +62,71 @@ header {
 .hero__img {
     width: 400px;
     height: auto;
+}
+
+/********************/
+/* Services section */
+/********************/
+
+.services__section {
+    padding: 96px 0;
+}
+
+.services__heading {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services__main-box {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.service__card {
+    flex-basis: 250px;
+    flex: 1;
+}
+
+.service__card__img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.service__card__heading {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.testimonial__section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/review-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.testimonial__main-box {
+    width: 100%;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.testimonial__main-box figure {
+    flex-basis: 1000px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    font-style: italic;
+}
+
+.testimonial-customer {
+    align-self: flex-end;
+    font-weight: 700;
 }
