@@ -1,0 +1,25 @@
+/********************/
+/* Header */
+/********************/
+
+header {
+    background-color: #f7efdb;
+}
+
+.nav {
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    height: 50px;
+}
+
+.nav__link-container {
+    gap: 30px;
+}
+
+.nav__link {
+    color: #585858;
+}
