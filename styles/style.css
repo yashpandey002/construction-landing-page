@@ -168,3 +168,15 @@ header {
     border-radius: 5px;
     color: #fff;
 }
+
+/********************/
+/* Footer */
+/********************/
+
+footer {
+    background-color: #585858;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
