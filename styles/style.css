@@ -99,6 +99,10 @@ header {
     margin-bottom: 5px;
 }
 
+/********************/
+/* Testimonial section */
+/********************/
+
 .testimonial__section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url(../img/review-bg.jpg);
@@ -129,4 +133,38 @@ header {
 .testimonial-customer {
     align-self: flex-end;
     font-weight: 700;
+}
+
+/********************/
+/* Outro section */
+/********************/
+
+.outro__section {
+    padding: 96px 0;
+}
+
+.outro__main-box {
+    background-color: #ff5a29;
+    border-radius: 10px;
+    padding: 50px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+}
+
+.outro__heading {
+    font-size: 30px;
+}
+
+.outro__desc {
+    font-size: 18px;
+}
+
+.outro__cta {
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
 }
