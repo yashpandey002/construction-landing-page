@@ -22,4 +22,44 @@ header {
 
 .nav__link {
     color: #585858;
+    font-size: 16px;
+}
+
+/********************/
+/* Hero section */
+/********************/
+
+.hero {
+    background-color: #f7efdb;
+}
+
+.hero__img-box {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.hero__heading {
+    font-size: 48px;
+    line-height: 1.4;
+    margin-top: 96px;
+    margin-bottom: 24px;
+}
+
+.hero__desc {
+    font-size: 18px;
+    color: #585858;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.hero__cta {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff5a29;
+    padding: 10px 20px;
+}
+
+.hero__img {
+    width: 400px;
+    height: auto;
 }

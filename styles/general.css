@@ -25,13 +25,14 @@ ul {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 /**********************/
 /* Utility classes */
 /**********************/
 .container {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
